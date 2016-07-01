@@ -1,0 +1,187 @@
+<h1>Merged PRs. Total: <%= @search_merged.total_count + @search_merged_amialc.total_count + @search_merged_aguerere.total_count + @search_merged_mehreencs87.total_count%></h1>
+
+<h2>Anny's Merged PRs. Total: <%= @search_merged.total_count%></h2>
+ <table style="width:100%">
+ <%@search_merged.items.each do |pr|%>
+    <tr>
+      <td> <%= pr.updated_at%> </td>  
+      <td> <a href=<%= pr.html_url%>><%= pr.html_url%></a></td>  
+    </tr>
+<% end %>
+</table> 
+
+<h2>Vlad's Merged  PRs. Total: <%= @search_merged_amialc.total_count%></h2>
+ <table style="width:100%">
+ <%@search_merged_amialc.items.each do |pr|%>
+  <tr>
+     <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></a></td>
+  </tr>
+<% end %>
+</table> 
+
+<h2>Alberto's Merged  PRs. Total: <%= @search_merged_aguerere.total_count%></h2>
+ <table style="width:100%">
+ <%@search_merged_aguerere.items.each do |pr|%>
+  <tr>
+     <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></a></td>
+  </tr>
+<% end %>
+</table> 
+
+<h2>Mehreen's Merged PRs. Total: <%= @search_merged_mehreencs87.total_count%></h2>
+ <table style="width:100%">
+ <%@search_merged_mehreencs87.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table>
+
+<h2>Iann's Merged PRs. Total: <%= @search_merged_iannyanes.total_count%></h2>
+<table style="width:100%">
+  <%@search_merged_iannyanes.items.each do |pr|%>
+      <tr>
+        <td> <%= pr.updated_at%> </td>
+        <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+      </tr>
+  <% end %>
+</table>
+
+<h2>Franco's Merged PRs. Total: <%= @search_merged_fiannolo.total_count%></h2>
+<table style="width:100%">
+  <%@search_merged_fiannolo.items.each do |pr|%>
+      <tr>
+        <td> <%= pr.updated_at%> </td>
+        <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+      </tr>
+  <% end %>
+</table>
+
+<h1>Closed Issues. Total: <%= @search_issues_anny.total_count + @search_issues_amialc.total_count + @search_issues_aguerere.total_count + @search_issues_mehreencs87.total_count%></h1>
+
+<h2>Anny's Closed issues. Total: <%= @search_issues_anny.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_anny.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>  
+  </tr>
+<% end %>
+</table> 
+
+<h2>Vlad's Closed issues. Total: <%= @search_issues_amialc.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_amialc.items.each do |pr|%>
+  <tr>
+     <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table> 
+
+<h2>Alberto's Closed issues. Total: <%= @search_issues_aguerere.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_aguerere.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table> 
+
+<h2>Mehreen's Closed issues. Total: <%= @search_issues_mehreencs87.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_mehreencs87.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table>
+
+<h2>Iann's Closed issues. Total: <%= @search_issues_iannyanes.total_count%></h2>
+<table style="width:100%">
+  <%@search_issues_iannyanes.items.each do |pr|%>
+      <tr>
+        <td> <%= pr.updated_at%> </td>
+        <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+      </tr>
+  <% end %>
+</table>
+
+
+<h2>Franco's Closed issues. Total: <%= @search_issues_fiannolo.total_count%></h2>
+<table style="width:100%">
+  <%@search_issues_fiannolo.items.each do |pr|%>
+      <tr>
+        <td> <%= pr.updated_at%> </td>
+        <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+      </tr>
+  <% end %>
+</table>
+
+
+<h1>Open Issues. Total: <%= @search_issues_open_anny.total_count + @search_issues_open_amialc.total_count + @search_issues_open_aguerere.total_count + @search_issues_open_mehreencs87.total_count%></h1>
+
+<h2>Anny's Open issues. Total: <%= @search_issues_open_anny.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_open_anny.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>  
+  </tr>
+<% end %>
+</table> 
+
+<h2>Vlad's Open issues. Total: <%= @search_issues_open_amialc.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_open_amialc.items.each do |pr|%>
+  <tr>
+     <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table> 
+
+<h2>Alberto's Open issues. Total: <%= @search_issues_open_aguerere.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_open_aguerere.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table> 
+
+<h2>Mehreen's Open issues. Total: <%= @search_issues_open_mehreencs87.total_count%></h2>
+ <table style="width:100%">
+ <%@search_issues_open_mehreencs87.items.each do |pr|%>
+  <tr>
+    <td> <%= pr.updated_at%> </td>  
+    <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+  </tr>
+<% end %>
+</table>
+
+<h2>Iann's Open issues. Total: <%= @search_issues_open_iannyanes.total_count%></h2>
+<table style="width:100%">
+  <%@search_issues_open_mehreencs87.items.each do |pr|%>
+      <tr>
+        <td> <%= pr.updated_at%> </td>
+        <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+      </tr>
+  <% end %>
+</table>
+
+<h2>Franco's Open issues. Total: <%= @search_issues_open_fiannolo.total_count%></h2>
+<table style="width:100%">
+  <%@search_issues_open_fiannolo.items.each do |pr|%>
+      <tr>
+        <td> <%= pr.updated_at%> </td>
+        <td> <a href=<%= pr.html_url%>><%= pr.html_url%></td>
+      </tr>
+  <% end %>
+</table>
