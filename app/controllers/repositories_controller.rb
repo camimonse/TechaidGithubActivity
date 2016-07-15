@@ -14,8 +14,16 @@ class RepositoriesController < ApplicationController
 	  @search_issues_aguerere = @client.search_issues('author:aguerere type:issues state:open org:auth0')
 	  @search_mehreencs87 = @client.search_issues('author:mehreencs87 type:pr is:open org:auth0', :sort => 'updated')
 	  @search_issues_mehreencs87 = @client.search_issues('author:mehreencs87 type:issues state:open org:auth0')
+		@search_fiannolo = @client.search_issues('author:fiannolo type:pr is:open org:auth0', :sort => 'updated')
 		@search_issues_fiannolo = @client.search_issues('author:fiannolo type:issues state:open org:auth0')
+		@search_iannyanes = @client.search_issues('author:iannyanes type:pr is:open org:auth0', :sort => 'updated')
 		@search_issues_iannyanes = @client.search_issues('author:iannyanes type:issues state:open org:auth0')
+
+
+
+
+
+
 
 	end
   def search
