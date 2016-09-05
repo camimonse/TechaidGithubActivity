@@ -20,4 +20,4 @@ Go to `app/controllers/repositories_controller.rb` and put your Github username 
 
 Author: Annybell Villarroel
 
-Camila ya esta entrenada
+Camila ya esta entrenada, intento 2 con github blash
