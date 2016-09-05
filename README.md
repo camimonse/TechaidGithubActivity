@@ -20,4 +20,4 @@ Go to `app/controllers/repositories_controller.rb` and put your Github username 
 
 Author: Annybell Villarroel
 
-Entrenando a Camila... (Iann Yanes)
+Camila ya esta entrenada
