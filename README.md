@@ -20,5 +20,5 @@ Go to `app/controllers/repositories_controller.rb` and put your Github username 
 
 Author: Annybell Villarroel
 
-<<<<<<< HEAD
-Camila ya esta entrenada, intento 7, a ver este...
+
+Camila ya esta entrenada, intento 8, sin problemas de merge
