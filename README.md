@@ -20,4 +20,4 @@ Go to `app/controllers/repositories_controller.rb` and put your Github username 
 
 Author: Annybell Villarroel
 
-Camila ya esta entrenada, intento 2 con github blash
+Camila ya esta entrenada, intento 3, para ver si el merge se puede hacer desde el lado de Iann con el branch master, y a la vez de lado de Camila con el branchCamila
