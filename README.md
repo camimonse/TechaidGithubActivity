@@ -20,4 +20,8 @@ Go to `app/controllers/repositories_controller.rb` and put your Github username 
 
 Author: Annybell Villarroel
 
+<<<<<<< HEAD
 Camila ya esta entrenada, intento 5, desde branchCamila para mandar al master de Iann, no de Camila
+=======
+Camila ya esta entrenada, intento 4, intentando desde el master para hacer PR al master de Iann, y no de Camila. Despus intentar hacer merge de ambos lados
+>>>>>>> refs/remotes/origin/master
